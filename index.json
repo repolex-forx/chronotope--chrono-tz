@@ -1,0 +1,11 @@
+{
+  "org": "chronotope",
+  "repo": "chrono-tz",
+  "versions": [
+    {
+      "commit": "64c3e4daa9fa5a4ee4d5a6098609790142552fe5",
+      "tag": "",
+      "parsed_at": "2026-11-09T23:00:35.809078+00:00"
+    }
+  ]
+}
