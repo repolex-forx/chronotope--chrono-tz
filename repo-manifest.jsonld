@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/chronotope/chrono-tz/commit/64c3e4daa9fa5a4ee4d5a6098609790142552fe5",
       "git:hexsha": "64c3e4daa9fa5a4ee4d5a6098609790142552fe5",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/chronotope/chrono-tz/commit/851f374aad15fb40065f8fa8c9631f9fe2b2da6a",
