@@ -157,7 +157,9 @@
           "githubUrl": "https://github.com/rust-lang/regex",
           "source": "build_file:Cargo.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/8d74e9cc8d4b837bc864764a45d595a127cdd718/chunk-001.nq.gz",
+      "dep": "dep/8d74e9cc8d4b837bc864764a45d595a127cdd718.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
