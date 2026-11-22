@@ -1,0 +1,16 @@
+[2026-11-22T01:51:32Z] === ENRICH ITERATION 1 START | repo=chronotope/chrono-tz sha=8d74e9cc ===
+[2026-11-22T01:51:32Z] [iter=1] PHASE START: enrich repo=chronotope/chrono-tz sha=8d74e9cc runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/8d74e9cc-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/8d74e9cc8d4b837bc864764a45d595a127cdd718.nq.gz
+[2026-11-22T01:51:38Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T01:51:39Z] [iter=1] AST store loaded triples=102675 load_secs=1 mem_mb=217 MB
+[2026-11-22T01:51:39Z] [iter=1] Step 2: Finding LSP targets mem_mb=217 MB
+[2026-11-22T01:51:39Z] [iter=1] LSP targets found call_sites=782 imports=26 extends=0 implements=0 secs=0
+[2026-11-22T01:51:39Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=217 MB
+[2026-11-22T01:51:39Z] [iter=1] Position index built positions=7256 nodes_with_types=8475 secs=0 mem_mb=217 MB
+[2026-11-22T01:51:39Z] [iter=1] Step 3: Starting LSP resolution mem_mb=217 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T01:51:39Z] [iter=1] Resolving target type target_type=call_site count=782
+[2026-11-22T01:51:53Z] [iter=1] Target type resolved target_type=call_site resolved=570 errors=0 secs=14 mem_mb=217 MB
+[2026-11-22T01:51:53Z] [iter=1] Resolving target type target_type=import_statement count=26
+[2026-11-22T01:51:59Z] [iter=1] Target type resolved target_type=import_statement resolved=16 errors=0 secs=7 mem_mb=217 MB
+[2026-11-22T01:52:09Z] [iter=1] Step 5: Writing final enrichment file triples=7031
+[2026-11-22T01:52:09Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/8d74e9cc8d4b837bc864764a45d595a127cdd718.nq.gz size_kb=113
+[2026-11-22T01:52:09Z] [iter=1] PHASE END: enrich elapsed_s=36 elapsed_min=0.6 total_triples=7031

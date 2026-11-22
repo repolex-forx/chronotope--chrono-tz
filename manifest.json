@@ -127,6 +127,36 @@
       ],
       "ast": [
         "aggregate/ast/8d74e9cc8d4b837bc864764a45d595a127cdd718/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/8d74e9cc8d4b837bc864764a45d595a127cdd718.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "datetime",
+          "ecosystem": "CARGO",
+          "version": "0.5",
+          "githubOrg": "rust-datetime",
+          "githubRepo": "datetime",
+          "githubUrl": "https://github.com/rust-datetime/datetime",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "lazy_static",
+          "ecosystem": "CARGO",
+          "version": "1.4",
+          "githubOrg": "rust-lang-nursery",
+          "githubRepo": "lazy-static.rs",
+          "githubUrl": "https://github.com/rust-lang-nursery/lazy-static.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "regex",
+          "ecosystem": "CARGO",
+          "version": "1.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "regex",
+          "githubUrl": "https://github.com/rust-lang/regex",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
